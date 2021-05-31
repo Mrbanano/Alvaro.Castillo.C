@@ -1,3 +1,6 @@
+@import "./component/button.css";
+@import "./component/header.css";
+
 :root{
     /*font size variable*/
     --fontBase:'Poppins', sans-serif;
@@ -20,6 +23,7 @@
     /*color variable*/
     --purple: #310A90;
     --green: #42E2BB;
+    --white: white;
 }
 
 * {
@@ -31,9 +35,4 @@ body {
   background: var(--gradient);
   min-block-size:100vh ;
   font: var(--buttom);
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
 }
