@@ -3,8 +3,12 @@
     justify-content: space-between;
     align-items: center;
     block-size: 80px;
-    position: sticky;
-    top: 0;
-    backdrop-filter: blur(10px);
   }
   
+  @media screen and (min-width: 768px) {
+    .header{
+      backdrop-filter: blur(10px);
+      position: sticky;
+    top: 0;
+    }
+  }

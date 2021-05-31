@@ -27,7 +27,6 @@
     .hero{
         display: flex;
         gap:32px;
-        border: 2px solid red;
     }
     .hero-description{
         order: 1;

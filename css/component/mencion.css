@@ -1,0 +1,35 @@
+.mencion {
+  margin-block-start: 40px;
+  text-align: center;
+}
+
+.mencion p:nth-of-type(1) {
+  font: var(--mencion);
+  letter-spacing: 0.005em;
+  margin-block-start: 30px;
+  margin-block-end: 30px;
+  word-spacing: 5px;
+  margin-inline-start: 9px;
+    margin-inline-end: 9px;
+}
+
+.mencion p:nth-of-type(2) {
+  font: var(--headLine5);
+}
+
+.mencion img {
+  margin-block-start: 24px;
+}
+@media screen and (min-width: 1024px) {
+  .mencion {
+    margin-block-start: 200px;
+  }
+
+  .mencion p:nth-of-type(1) {
+    border: 2px solid red;
+    font: var(--mencion2);
+    margin-inline-start: 125px;
+    margin-inline-end: 125px;
+    word-spacing: 5px;
+  }
+}
