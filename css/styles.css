@@ -1,4 +1,5 @@
 @import "./component/button.css";
+@import "./component/button-icon.css";
 @import "./component/header.css";
 
 :root{
