@@ -3,6 +3,7 @@
 @import "./component/menu.css";
 @import "./component/hero.css";
 @import "./component/mencion.css";
+@import "./component/testimony.css";
 @import "./component/button.css";
 @import "./component/button-icon.css";
 
@@ -21,6 +22,8 @@
   --caption: 12px/19px var(--fontBase);
   --mencion : lighter 24px/39px var(--fontAlternative);
   --mencion2: 34px/55px var(--fontAlternative);
+  --mencion3:bold 34px/55px var(--fontAlternative);
+  --testimony : bold 16px/26px var(--fontAlternative);
   /*bg color variable*/
   --gradient: radial-gradient(
       41.48% 11.48% at 2.38% 8.52%,
@@ -28,7 +31,9 @@
       rgba(255, 255, 255, 0) 100%
     ),
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
-  /*color variable*/
+  --cardbg:rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(39.7657px);
+    /*color variable*/
   --purple: #310a90;
   --green: #42e2bb;
   --white: white;

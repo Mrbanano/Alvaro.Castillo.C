@@ -26,10 +26,14 @@
   }
 
   .mencion p:nth-of-type(1) {
-    border: 2px solid red;
-    font: var(--mencion2);
+    font: var(--mencion3);
     margin-inline-start: 125px;
     margin-inline-end: 125px;
     word-spacing: 5px;
+  }
+  .mencion p:nth-of-type(2) {
+    margin-block-start: 24px;
+    margin-block-end: 80px;
+    
   }
 }
