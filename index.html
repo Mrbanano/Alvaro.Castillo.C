@@ -27,16 +27,21 @@
           height="20"
           alt="AlvaroCastilloCarreñoDesarolladorWeb"
         />
-        <nav class="menu">
+        <nav class="menu" aria-label="main-navigation">
           <ul>
             <li><a class="is-active" href="#main">Hola</a></li>
             <li><a href="#project">Proyectos</a></li>
             <li><a href="#contact">Hablemos</a></li>
           </ul>
         </nav>
-        <button class="button">Curriculum</button>
+        <a
+          class="button"
+          href="https://mrbanano.github.io/Curriculum-vitae-react/index.html"
+          target="_blank"
+          >Curriculum</a
+        >
       </header>
-      <section class="hero" id="main">
+      <section class="hero" id="main" aria-label="main">
         <div class="hero-img">
           <img
             src="./static/img/user.png"
@@ -54,21 +59,34 @@
             Frontend Developer que le encanta implementar diseños que inspiran y
             atraen a las personas.
           </p>
-          <div class="hero-social">
+          <div class="social">
+            <a
+              class="button-icon"
+              href="https://github.com/Mrbanano/"
+              target="_blank"
+              ><img src="./static/icons/icon-github.svg" alt=""
+            /></a>
             <a class="button-icon" href="tel:2212401587"
               ><img src="./static/icons/icon-phone.svg" alt=""
             /></a>
-            <a class="button-icon" href="tel:2212401587"
+            <a class="button-icon" href="mailto:alvarocastillocarreno@gmail.com"
               ><img src="./static/icons/icon-important_mail.svg" alt=""
             /></a>
-            <a class="button-icon" href="tel:2212401587"
+            <a
+              class="button-icon"
+              href="https://www.instagram.com/alvaro.castillo.c/"
+              target="_blank"
               ><img src="./static/icons/icon-instagram.svg" alt=""
             /></a>
-            <a class="button-icon" href="tel:2212401587"
+            <a class="button-icon" href="https://twitter.com/666alvaro"
               ><img src="./static/icons/icon-twitter_squared.svg" alt=""
             /></a>
           </div>
-          <a href="/" class="button">Descargar Curriculum</a>
+          <a
+            href="https://download1479.mediafire.com/se4lz5uhpgag/0qt946in9ova51j/AlvaroCastilloCarreno.pdf"
+            class="button"
+            >Descargar Curriculum</a
+          >
         </div>
       </section>
       <section class="mencion">
@@ -77,18 +95,93 @@
           trabajar en proyectos retadores e increíbles
         </p>
         <p>Aquí hay algunos que me gustaría compartir.</p>
-        <img src="./static/icons/arrow-down.svg" width="80px" height="80px" alt="" />
+        <img
+          src="./static/icons/arrow-down.svg"
+          width="80px"
+          height="80px"
+          alt=""
+        />
       </section>
-      <section class="web">
-        <p>aqui va un proyecto</p>
+      <section class="project">
+        <div class="project-img">
+          <img
+            src="./static/img/project.png"
+            width="235.92px"
+            height="147.38px"
+            alt=""
+          />
+        </div>
+        <div class="project-description">
+          <a class="project-title" href="">Vr-island</a>
+          <p>
+            Sitio web con un entorno de realidad virtual, donde se puede hacer
+            un recorrido por una isla fantástica en un paisaje nocturno
+          </p>
+          <a
+            href="https://github.com/Mrbanano/Vr-island"
+            target="_blank"
+            class="button is-secundary"
+            >Ver codigo</a
+          >
+          <a
+            href="https://mrbanano.github.io/Vr-island/index.html"
+            target="_blank"
+            class="button"
+            >Ver proyecto</a
+          >
+        </div>
       </section>
       <section class="testimony">
         <div class="card wrapper">
-            <img class="card-img" src="./static/img/testigo.png" width="64px" height="64px"  alt="">
-            <p>"Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5 meses "</p>
-            <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
-        </div>    
+          <img
+            class="card-img"
+            src="./static/img/testigo.png"
+            width="64px"
+            height="64px"
+            alt=""
+          />
+          <p>
+            "Jaume ha sido de gran ayuda para acelerar ciertos esfuerzos de
+            desarrollo. Lo que nos hubiera llevado 6 meses solo les llevó 1,5
+            meses "
+          </p>
+          <p>LEONIDAS ESTEBAN / COFUNDADOR Y CEO LEONIDASESTEBAN.COM</p>
+        </div>
       </section>
+      <footer class="footer">
+        <div class="footer-logo">
+          <img
+            src="./static/img/LOGO.png"
+            width="70"
+            height="20"
+            alt="AlvaroCastilloCarreñoDesarolladorWeb"
+          />
+        </div>
+        <div class="social">
+          <a
+            class="button-icon"
+            href="https://github.com/Mrbanano/"
+            target="_blank"
+            ><img src="./static/icons/icon-github.svg" alt=""
+          /></a>
+          <a class="button-icon" href="mailto:alvarocastillocarreno@gmail.com"
+            ><img src="./static/icons/icon-important_mail.svg" alt=""
+          /></a>
+          <a
+            class="button-icon"
+            href="https://www.instagram.com/alvaro.castillo.c/"
+            target="_blank"
+            ><img src="./static/icons/icon-instagram.svg" alt=""
+          /></a>
+          <a class="button-icon" href="https://twitter.com/666alvaro"
+            ><img src="./static/icons/icon-twitter_squared.svg" alt=""
+          /></a>
+        </div>
+        <div class="footer-text">
+            <p>Hecho con el 💚 por Alvaro</p>
+            <p>Copyright 2021 - Todos los derechos reservados.</p>
+        </div>
+      </footer>
       <script src="./js/app.js"></script>
     </div>
   </body>

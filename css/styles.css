@@ -4,7 +4,10 @@
 @import "./component/hero.css";
 @import "./component/mencion.css";
 @import "./component/testimony.css";
+@import "./component/proyect.css";
+@import "./component/footer.css";
 @import "./component/button.css";
+@import "./component/social.css";
 @import "./component/button-icon.css";
 
 :root {
@@ -44,4 +47,5 @@ body {
   min-block-size: 100vh;
   font: var(--buttom);
   color: var(--purple);
+  margin: 0;
 }
