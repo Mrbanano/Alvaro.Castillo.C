@@ -1,8 +1,11 @@
 .hero{
-    padding-block-start: 16px;
+    padding-block-start: 24px;
 }
 .hero-img{
     text-align: center;
+    width: 90%;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 .hero-description{
     display: flex;
@@ -27,6 +30,7 @@
         align-items: center;
     }
     .hero-description{
+        align-self: flex-start;
         order: 1;
         max-inline-size: 450px;
     }
