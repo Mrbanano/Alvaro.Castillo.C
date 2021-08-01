@@ -4,11 +4,14 @@
 @import "./component/hero.css";
 @import "./component/mencion.css";
 @import "./component/testimony.css";
-@import "./component/proyect.css";
+@import "./component/project.css";
 @import "./component/footer.css";
+@import "./component/form.css";
 @import "./component/button.css";
 @import "./component/social.css";
 @import "./component/button-icon.css";
+
+@import "./component/items/title.css";
 
 :root {
   /*font size variable*/
@@ -34,10 +37,11 @@
       rgba(255, 255, 255, 0) 100%
     ),
     linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+  --gradient: linear-gradient(135deg, #003844 0%, #006C67 100%);
   --cardbg:rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(39.7657px);
     /*color variable*/
-  --purple: #310a90;
+  --purple: #A2BD31;
   --green: #42e2bb;
   --white: white;
 }

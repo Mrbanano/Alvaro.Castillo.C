@@ -1,14 +1,12 @@
-.header {
+  .header {
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     block-size: 80px;
-  }
-  
-  @media screen and (min-width: 768px) {
-    .header{
-      backdrop-filter: blur(10px);
-      position: sticky;
-    top: 0;
-    }
   }
