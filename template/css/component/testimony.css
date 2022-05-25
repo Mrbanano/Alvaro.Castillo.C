@@ -1,0 +1,58 @@
+.testimony{
+    max-inline-size: 1132px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 90%;
+}
+
+.testimony .card{
+    border-radius: 24px;
+    background: var(--cardbg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimony .card .card-img{
+    text-align: center;
+    margin-block-start: 24px;
+    margin-block-end: 24px;
+    display: block;
+}
+
+.testimony .card p:nth-of-type(1){
+    font : var(--testimony);
+    letter-spacing: 0.005em;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+}
+
+.testimony .card p:nth-of-type(2){
+    font : var(--caption);
+    opacity: 0.5;
+    letter-spacing: 0.4px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    margin-block-start: 24px;
+    margin-block-end: 24px;
+}
+
+@media screen and (min-width: 768px){
+    .testimony .card .card-img{
+        margin-block-start: 80px;
+        margin-block-end: 24px;
+    }
+    .testimony .card p:nth-of-type(1){
+        font : var(--mencion2);
+        text-align: center;
+        letter-spacing: 0.005em;
+        margin-inline-start: 80px;
+        margin-inline-end: 80px;
+        margin-block-start: 0px;
+        margin-block-end: 24px;
+    }
+    .testimony .card p:nth-of-type(2){
+        margin-block-start: 0;
+        margin-block-end: 80px;
+    }
+}

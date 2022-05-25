@@ -1,0 +1,55 @@
+@import "./component/wrapper.css";
+@import "./component/header.css";
+@import "./component/menu.css";
+@import "./component/hero.css";
+@import "./component/mencion.css";
+@import "./component/testimony.css";
+@import "./component/project.css";
+@import "./component/footer.css";
+@import "./component/form.css";
+@import "./component/button.css";
+@import "./component/social.css";
+@import "./component/button-icon.css";
+
+@import "./component/items/title.css";
+
+:root {
+  /*font size variable*/
+  --fontBase: "Poppins", sans-serif;
+  --fontAlternative:'Oxygen', sans-serif;
+  --headLine1: bold 95px/153.71px var(--fontBase);
+  --headLine2: bold 59px/95px var(--fontBase);
+  --headLine3: bold 48px/77px var(--fontBase);
+  --headLine4: bold 34px/55px var(--fontBase);
+  --headLine5: bold 24px/38px var(--fontBase);
+  --body1: 16px/25px var(--fontBase);
+  --body2: 14px/22px var(--fontBase);
+  --buttom: bold 14px/23px var(--fontBase);
+  --caption: 12px/19px var(--fontBase);
+  --mencion : lighter 24px/39px var(--fontAlternative);
+  --mencion2: 34px/55px var(--fontAlternative);
+  --mencion3:bold 34px/55px var(--fontAlternative);
+  --testimony : bold 16px/26px var(--fontAlternative);
+  /*bg color variable*/
+  --gradient: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #747de9 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+  --gradient: linear-gradient(135deg, #003844 0%, #006C67 100%);
+  --cardbg:rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(39.7657px);
+    /*color variable*/
+  --purple: #A2BD31;
+  --green: #42e2bb;
+  --white: white;
+}
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--buttom);
+  color: var(--purple);
+  margin: 0;
+}
