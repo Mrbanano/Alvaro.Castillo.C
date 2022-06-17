@@ -32,7 +32,7 @@
 }
 
 body {
-  background: var(--gradient);
+  background-color: #eee;
   min-block-size: 100vh;
   font: var(--buttom);
   color: var(--purple);
