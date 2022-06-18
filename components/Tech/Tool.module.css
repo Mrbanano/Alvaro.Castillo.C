@@ -1,0 +1,73 @@
+.Tool {
+  margin-top: 80px;
+  box-sizing: border-box;
+}
+
+.ToolContainer {
+  border: 2px solid black;
+  margin: 0 auto;
+  min-width: 360px;
+  max-width: 1366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ToolContainerHeader {
+  margin-bottom: 90px;
+}
+
+.ToolContainerHeader h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  border: 2px solid blue;
+}
+
+.ToolContainerbody {
+  padding: 60px 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 45px;
+  justify-items: center;
+}
+
+.ToolsItem {
+  margin-top: 20px;
+  width: 125px;
+  height: 125px;
+  text-align: center;
+}
+
+.ToolsItem img {
+  width: 100%;
+  height: 100%;
+}
+
+/*
+
+  .Tool {
+    border: 2px solid blue;
+  }
+  .ToolContainer {
+    border: 2px solid brown;
+    max-width: 200px;
+  }
+  .ToolContainerHeader {
+    margin: 0;
+    padding: 0;
+    align-self: center;
+    border: 2px solid pink;
+  }
+  .ToolContainerHeader h2 {
+    border: 2px solid black;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+}
+*/
