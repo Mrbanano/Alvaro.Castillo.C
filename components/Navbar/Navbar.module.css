@@ -1,21 +1,22 @@
 .header {
+  z-index: 30;
   position: sticky;
   top: 0;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  background-color: rgba(243, 252, 249, 0.7);
 }
 .headerContent {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  block-size: 80px;
-  margin-block-start: 5px;
+  margin-block-start: 0px;
 }
 
 .wrapper {
   max-inline-size: 1158px;
-  padding-inline-end: 16px;
-  padding-inline-start: 16px;
+  padding-inline-end: 20px;
+  padding-inline-start: 20px;
   margin: auto;
 }
 
@@ -44,8 +45,8 @@
   background: var(--purple);
   padding-inline-start: 30px;
   padding-inline-end: 30px;
-  padding-block-start: 10px;
-  padding-block-end: 10px;
+  padding-block-start: 5px;
+  padding-block-end: 5px;
   border-radius: 4px;
   text-transform: uppercase;
   border: none;
