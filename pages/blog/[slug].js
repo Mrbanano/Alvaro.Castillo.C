@@ -3,9 +3,14 @@ import { getFilesBySlug, getFiles } from "../../lib/mdx";
 
 //Componets
 import MDXComponents from "../../components/MDXComponents";
+import { Container } from "../../components/BlogComponents/Container";
 
 export default function Post({ source, frontmatter }) {
-  return <MDXRemote {...source} components={MDXComponents} />;
+  return (
+    <Container>
+      <MDXRemote {...source} components={MDXComponents} />
+    </Container>
+  );
 }
 
 export async function getStaticProps({ params }) {

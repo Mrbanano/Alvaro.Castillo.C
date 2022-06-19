@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "./Navbar.module.css";
 
 import Logo from "../../public/static/clips/logo.svg";
+import { useRouter } from "next/router";
 
 const { header, wrapper, headerContent, menu, button, Active, BlogMobile } =
   styles;
@@ -32,11 +33,13 @@ const Links = [
 ];
 
 export const Navbar = () => {
+  const { pathname } = useRouter();
+
   return (
     <header className={`${header}`}>
       <div className={wrapper}>
         <div className={headerContent}>
-          <div className="hidden md:block">
+          <div className="hidden md:block mt-[-10px] ">
             <Link href="/">
               <Image
                 src={Logo}
