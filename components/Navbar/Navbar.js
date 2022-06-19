@@ -36,7 +36,7 @@ export const Navbar = () => {
   const { pathname } = useRouter();
 
   return (
-    <header className={`${header}`}>
+    <header className={`${header}  sticky top-0`}>
       <div className={wrapper}>
         <div className={headerContent}>
           <div className="hidden md:block mt-[-10px] ">

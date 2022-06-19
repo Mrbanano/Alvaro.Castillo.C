@@ -19,10 +19,6 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <About />
-        <Banner />
-        <About />
-        <About />
         <Form />
       </main>
     </div>

@@ -1,5 +1,6 @@
 import { MDXRemote } from "next-mdx-remote";
 import { getFilesBySlug, getFiles } from "../../lib/mdx";
+import Style from "./slug.module.css";
 
 //Componets
 import MDXComponents from "../../components/MDXComponents";
@@ -8,7 +9,9 @@ import { Container } from "../../components/BlogComponents/Container";
 export default function Post({ source, frontmatter }) {
   return (
     <Container>
-      <MDXRemote {...source} components={MDXComponents} />
+      <main className={Style.wrap}>
+        <MDXRemote {...source} components={MDXComponents} />
+      </main>
     </Container>
   );
 }

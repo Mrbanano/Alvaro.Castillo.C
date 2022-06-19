@@ -1,0 +1,52 @@
+.wrap {
+  max-width: 624px;
+  margin: 0 auto;
+}
+
+.wrap h1 {
+  font-size: 2rem;
+  text-align: initial;
+  line-height: 1.33;
+  font-weight: bold;
+}
+.wrap h2 {
+  margin: 30px 0 15px 0;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+
+.wrap p {
+  color: #1a1a24;
+  font-size: 1.12rem;
+  line-height: 1.78;
+  white-space: break-spaces;
+  margin: 1.2rem 0;
+}
+
+.wrap ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.wrap li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.wrap a {
+  color: #1a1a24;
+  text-decoration: underline;
+  background-color: yellow;
+}
+
+@media (min-width: 768px) {
+  .wrap h2 {
+    font-size: 2rem;
+  }
+}
