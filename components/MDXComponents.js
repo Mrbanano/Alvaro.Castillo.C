@@ -1,7 +1,5 @@
-import { Ejemplo } from "./Ejemplo";
-import { DisqusComponents } from "./Disqus";
+import Header from "./BlogComponents/Header";
 
 export default {
-  Ejemplo,
-  DisqusComponents,
+  Header,
 };

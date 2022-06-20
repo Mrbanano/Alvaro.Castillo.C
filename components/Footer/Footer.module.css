@@ -1,10 +1,7 @@
 .footer {
   color: var(--white);
   text-align: center;
-  padding-block-start: 40px;
-  padding-block-end: 40px;
   font: var(--body1);
-  max-inline-size: 1158px;
   padding-inline-end: 16px;
   padding-inline-start: 16px;
   margin: auto;

@@ -1,0 +1,82 @@
+.formContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-inline-size: 540px;
+  margin: auto;
+}
+.form {
+  padding-block-start: 80px;
+  margin-block-start: 40px;
+}
+.form .title {
+  margin: 0;
+}
+.form p {
+  color: black;
+  font-weight: bold;
+  margin: 0;
+  margin-block-start: 16px;
+  text-align: left;
+}
+.title {
+  background: #1fe6af;
+  color: #fff;
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: bold;
+  padding-block-end: 4px;
+  padding-block-start: 4px;
+  padding-inline-end: 8px;
+  padding-inline-start: 8px;
+  text-decoration: none;
+  margin-inline-start: 4px;
+  box-shadow: -4px 4px 0 white;
+  align-self: flex-start;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  color: #1fe6af;
+}
+
+.form input,
+.form textarea {
+  border: 2px solid #858c94;
+  border-radius: 8px;
+  padding-inline-end: 16px;
+  padding-inline-start: 16px;
+  padding-block-start: 12px;
+  padding-block-end: 12px;
+  color: black;
+  margin-block-start: 8px;
+}
+
+.button {
+  background: #1fe6af;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 23px;
+  font: var(--button);
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  padding-block-start: 13px;
+  padding-block-end: 13px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .form .title {
+    align-self: stretch;
+    text-align: center;
+  }
+}

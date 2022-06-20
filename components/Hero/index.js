@@ -8,7 +8,7 @@ import { ClipDesktop } from "../Clip/ClipDesktop";
 export default function index() {
   return (
     <>
-      <section id="#main" className="w-full bg-green-light py-14 md:py-14">
+      <section id="main" className="w-full bg-green-light py-14 md:py-14">
         <div className="max-w-7xl m-auto h-[600px] md:h-[550px] p-2 flex flex-col gap-3 md:flex-row">
           <div className="h-4/6  box-border md:w-1/2 md:h-auto md:order-1">
             <div className="h-full w-full relative  ">
