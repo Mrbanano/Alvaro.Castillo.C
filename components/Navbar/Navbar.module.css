@@ -28,15 +28,8 @@
   gap: 40px;
 }
 
-.menu ul a {
-  text-decoration: none;
-  color: var(--white);
-  font: var(--button);
-  text-transform: uppercase;
-}
-
 .isActive {
-  color: var(--purple);
+  color: rgba(65, 214, 174, 1);
 }
 
 .BlogMobile {

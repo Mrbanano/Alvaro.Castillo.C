@@ -19,7 +19,6 @@ export default function Blog({ post }) {
 
 export async function getStaticProps() {
   const post = await getFilesByTags("React");
-  console.log(post);
   return {
     props: { post },
   };

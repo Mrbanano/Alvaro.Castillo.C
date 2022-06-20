@@ -2,19 +2,24 @@ import React from "react";
 import Image from "next/image";
 import styles from "./Footer.module.css";
 import Svg from "../../public/static/clips/ClipGreen.svg";
+import { useRouter } from "next/router";
 
 const { footer, footerLogo, social, buttonIcon, footerText } = styles;
 
 export const Footer = () => {
+  const { asPath } = useRouter();
+
   return (
     <footer>
-      <div className="relative h-20 w-full bg-green-light ">
+      <div
+        className={`relative h-20 w-full ${
+          asPath === "/blog" ? " " : "bg-green-light"
+        }  `}
+      >
         <Image src={Svg} alt="clip" layout="fill" objectFit="cover" />
       </div>
       <div className="bg-green-soft">
-        <div className="max-w-7xl m-auto h-20  ">
-          <h1>footer</h1>
-        </div>
+        <div className="max-w-7xl m-auto h-10"></div>
       </div>
       <div className="bg-green-darker">
         <div className="max-w-7xl m-auto flex flex-col items-center gap-4 p-6 md:flex-row md:items-center md:justify-between md:p-2">

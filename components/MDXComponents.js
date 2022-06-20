@@ -1,5 +1,5 @@
-import { Ejemplo } from "./Ejemplo";
+import Header from "./BlogComponents/Header";
 
 export default {
-  Ejemplo,
+  Header,
 };

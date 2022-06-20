@@ -33,10 +33,10 @@ const Links = [
 ];
 
 export const Navbar = () => {
-  const { pathname } = useRouter();
+  const { asPath } = useRouter();
 
   return (
-    <header className={`${header}  sticky top-0`}>
+    <header className={`${header}  sticky top-0 z-50`}>
       <div className={wrapper}>
         <div className={headerContent}>
           <div className="hidden md:block mt-[-10px] ">
@@ -67,12 +67,19 @@ export const Navbar = () => {
               {Links.map((link, index) => (
                 <li key={index}>
                   <Link id={link.id} href={link.href}>
-                    <a>{link.name}</a>
+                    <a
+                      className={`
+                      text-bold 
+                      ${asPath == link.href ? "text-green-dark" : ""}`}
+                    >
+                      {link.name}
+                    </a>
                   </Link>
                 </li>
               ))}
             </ul>
           </nav>
+
           <a
             className={`${btnStyle} border-2 border-green-dark rounded-xl px-2 hover:bg-green-dark hover:text-white transition duration-150 ease-out`}
             target="_blank"
@@ -80,10 +87,9 @@ export const Navbar = () => {
           >
             Curriculum
           </a>
+
           <Link href="/blog" id="BtnBlog">
-            <div
-              className={` border-2 border-green-dark rounded-xl md:hidden `}
-            >
+            <div className={`border-2 border-green-dark rounded-xl md:hidden `}>
               <a className={linkStyle}>Blog </a>
             </div>
           </Link>
@@ -98,3 +104,6 @@ const linkStyle =
 
 const btnStyle =
   "hidden self-start m-8 py-2 text-green-dark font-bold text-lg md:block";
+
+const active = "";
+const noactive = "";
