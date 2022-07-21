@@ -8,7 +8,6 @@ import { Container } from "../../components/BlogComponents/Container";
 import Head from "next/head";
 
 export default function Post({ source, frontmatter }) {
-  console.log(frontmatter);
   return (
     <>
       <Head>

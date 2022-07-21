@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
-        <About />
+
         <Form />
       </main>
     </div>
