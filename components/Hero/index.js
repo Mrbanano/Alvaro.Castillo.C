@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import HeroImage from "../../public/static/img/HeroImage.png";
+import HeroImage from "../../public/static/img/HeroImage-2.png";
 import Svg from "../../public/static/clips/Clip.svg";
 import Clip from "../Clip";
 import { ClipDesktop } from "../Clip/ClipDesktop";

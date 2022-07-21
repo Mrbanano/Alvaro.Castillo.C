@@ -12,7 +12,7 @@ export const Footer = () => {
   return (
     <footer>
       <div
-        className={`relative h-20 w-full ${
+        className={`relative h-20 w-screen m-0 p-0 ${
           asPath === "/blog" ? " " : "bg-green-light"
         }  `}
       >
