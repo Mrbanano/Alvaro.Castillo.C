@@ -69,8 +69,7 @@ export const Navbar = () => {
                   <Link id={link.id} href={link.href}>
                     <a
                       className={`
-                      text-bold 
-                      ${asPath == link.href ? "text-green-dark" : ""}`}
+                      ${asPath == link.href ? "" : ""}`}
                     >
                       {link.name}
                     </a>
@@ -104,6 +103,3 @@ const linkStyle =
 
 const btnStyle =
   "hidden self-start m-8 py-2 text-green-dark font-bold text-lg md:block";
-
-const active = "";
-const noactive = "";
